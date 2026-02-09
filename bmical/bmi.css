@@ -1,0 +1,39 @@
+body{
+    background-color: crimson;
+    padding: 20px;
+   
+    border: 10px dashed black;
+}
+#re{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+#result{
+    display: inline-block; 
+    width: 7rem;
+    height: 50px;
+    background-color: white;
+        
+    text-align: center;     
+}
+.bmi-guide{
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid black;
+  width: fit-content;
+  background-color: #f8f8f8;
+}
+
+.bmi-guide h3{
+  margin-bottom: 10px;
+}
+
+.bmi-guide ul{
+  padding-left: 20px;
+}
+
+.bmi-guide li{
+  margin-bottom: 5px;
+}
