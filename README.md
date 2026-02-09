@@ -32,5 +32,6 @@ This repository contains 4 beginner-friendly JavaScript projects created to prac
 
 ---
 
-## 📂 Project Structure
+
+
 
