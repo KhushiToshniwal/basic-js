@@ -1,0 +1,32 @@
+
+.main{
+    border: 2px solid black;
+    width: 95vw;
+     min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+
+}
+.box{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.button{
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
