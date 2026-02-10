@@ -13,7 +13,12 @@ etar.addEventListener("click",function(e){
     else{
         ch.textContent=(w / (h * h)).toFixed(2);
     }
-
+   console.log(e.timeStamp);
 
 })
 //if we take h and w outsie the function then empty value gets stored
+//document.queryseklector("image").addeventlistener("click",function(){
+//       let removeit=e.target.parentnode;
+//       removeit.remove();
+
+// })
