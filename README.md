@@ -23,12 +23,20 @@ This repository contains 4 beginner-friendly JavaScript projects created to prac
 - Provides feedback (Too high / Too low)
 - Limited attempts logic
 
+### 5️⃣ Keyboard Keys
+- Displays entered keys' value,code and keycode
+- Uses `event listeners` and JavaScript DOM manipulation
+
+### 6️⃣ Random Color
+- Displays random colors on pressing start and stops on pressing stop
+- Uses `setInterval` and `setTimeout`
+
 ---
 
 ## 🛠️ Technologies Used
 - HTML
 - CSS
-- JavaScript (Vanilla JS)
+- JavaScript 
 
 ---
 
