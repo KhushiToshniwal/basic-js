@@ -1,0 +1,30 @@
+
+        #card{
+            border: 2px solid black;
+           width:  200px;
+           height:  250px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+            background-color: antiquewhite;
+             transform: scale(0);
+              opacity: 0;
+              transition: all;
+        }
+
+#card.show {
+    animation: box 0.3s ease-out forwards;
+}
+
+@keyframes box {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+      #avatar{
+        width: 100px;
+      }
