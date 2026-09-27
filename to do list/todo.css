@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   background-color: aquamarine;
+}
+.box{
+    border: 2px solid rgb(211, 167, 100);
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px gray;
+}
+.head{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.main{
+    border: 1px solid rgba(128, 128, 128, 0.626);
+    border-radius: 20px;
+    box-sizing: border-box;
+   
+     width: 320px;
+
+    
+    height: 50px;
+   
+}
+.bo{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.bo button{
+    width: 60px;
+   height: 100%;
+    background: red;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.taskinput{
+    width: 260px;
+    height: 100%;
+    padding: 10px;
+     border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.47);
+    outline: none;
+    resize: none;
+    
+    font-size: large;
+    
+
+}
+.taskinput {
+    resize: none;
+    overflow-y: hidden;
+}
+.down{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+   
+    height: 70%;
+    width: 100%;
+    
+    
+}
+.list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+.listi{
+    width: 99%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    font-size: large;
+    
+    border-radius: 3px;
+     box-shadow: 2px 0px 10px gray;
+}
+.listi input {
+    width: 20px;
+    height: 20px;
+}
+.listi .but {
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
