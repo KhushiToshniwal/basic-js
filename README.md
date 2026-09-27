@@ -36,6 +36,10 @@ This repository contains 4 beginner-friendly JavaScript projects created to prac
 - Uses `xhmlrequest`and `GitHub api` 
 ---
 
+### 8️⃣ To-Do list
+- you can add or remove you to-dos from list 
+---
+
 ## 🛠️ Technologies Used
 - HTML
 - CSS
