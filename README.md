@@ -30,7 +30,14 @@ This repository contains 4 beginner-friendly JavaScript projects created to prac
 ### 6️⃣ Random Color
 - Displays random colors on pressing start and stops on pressing stop
 - Uses `setInterval` and `setTimeout`
+  
+### 7️⃣ GitHub Info
+- Displays the profile picture,followers and the number of repos of particular users
+- Uses `xhmlrequest`and `GitHub api` 
+---
 
+### 8️⃣ To-Do list
+- you can add or remove you to-dos from list 
 ---
 
 ## 🛠️ Technologies Used
